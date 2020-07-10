@@ -23,4 +23,9 @@ git push
 	git merge {branch}
 	git branch -d {branch}
 	
-merge 충돌
+	git remote
+	git remote show origin
+	git remote add {name} {link}
+	git remote -v
+	git remote rename {from} {to}
+	git remote rm {name}
