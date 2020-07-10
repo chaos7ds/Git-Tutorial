@@ -12,13 +12,15 @@ git push
 	
 	git checkout -- {파일}		: 마지막 버전 복원
 	git log
-	git reset --hard {hash 값}
+	git reset --hard {hash}
 	git push -f					: 서버 롤백
 	git commit --amend			: 수정 vim
 	
-	git checkout -b {branch 이름}	: branch 만들고 이동
+	git checkout -b {branch}	: branch 만들고 이동
 	git branch					: branch 조회
-	git branch {branch 이름}		: branch 생성
-	git checkout {branch 이름}	: branch 이동
+	git branch {branch}			: branch 생성
+	git checkout {branch}		: branch 이동
+	git merge {branch}
+	git branch -d {branch}
 	
 merge 충돌
