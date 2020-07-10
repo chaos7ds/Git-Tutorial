@@ -20,5 +20,5 @@ git push
 	git branch					: branch 조회
 	git branch {branch 이름}		: branch 생성
 	git checkout {branch 이름}	: branch 이동
-
-how different
+	
+merge 충돌
