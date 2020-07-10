@@ -29,3 +29,5 @@ git push
 	git remote -v
 	git remote rename {from} {to}
 	git remote rm {name}
+	
+	git log --graph				: 세계선 분기, 수속 시각화
