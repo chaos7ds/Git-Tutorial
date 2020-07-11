@@ -12,16 +12,17 @@ git push
 	
 	git checkout -- {파일}		: 마지막 버전 복원
 	git log
-	git reset --hard {hash}
-	git push -f					: 서버 롤백
+	git reset --hard {hash}		: 로컬 <- 서버
+	git push -f					: 서버 <- 로컬
 	git commit --amend			: 수정 vim
 	
-	git checkout -b {branch}	: branch 만들고 이동
-	git branch					: branch 조회
-	git branch {branch}			: branch 생성
-	git checkout {branch}		: branch 이동
+	git checkout -b {branch}	: 만들고 이동
+	git branch					: 조회
+	git branch {branch}
+	git checkout {branch}		: 이동
 	git merge {branch}
-	git branch -d {branch}
+	git branch -d {branch}		: 삭제
+	git push origin {branch}	: git에 생성
 	
 	git remote
 	git remote show origin
