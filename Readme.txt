@@ -24,11 +24,11 @@ git push
 	git checkout {branch}		: 이동
 	git merge {branch}			: 병합
 	git branch -d {branch}		: 삭제
-	git push {Rep} {branch}		: git에 생성
+	git push {name} {branch}	: git에 생성
 	
 	git remote						: 조회
 	git remote -v
-	git remote show {Rep}			: 정보 확인
-	git remote add {Rep} {link}		: 추가
+	git remote show {name}			: 정보 확인
+	git remote add {name} {link}		: 추가
 	git remote rename {from} {to}	: 이름변경
-	git remote rm {Rep}				: 제거
+	git remote rm {name}				: 제거
